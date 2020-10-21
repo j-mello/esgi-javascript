@@ -52,6 +52,7 @@ function replaceAll(str,A,B) {
 }
 
 function leet(chaine) {
+    if (typeof chaine !== "string" || chaine ==="") return "";
     const toCrypt = {
         A : 4,
         E : 3,
@@ -91,3 +92,15 @@ let prairie = {
 }
 
 console.log(prop_access(prairie, "animal.type.name"));
+
+function verlan(chaine) {
+    if (typeof chaine !== "string" || chaine ==="") return "";
+}
+
+function yoda (chaine) {
+    if (typeof chaine !== "string" || chaine ==="") return "";
+}
+
+function vig (chaine) {
+    if (typeof chaine !== "string" || chaine ==="") return "";
+}
