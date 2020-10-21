@@ -22,7 +22,7 @@ function camelCase(chaine) {
     let str = "";
     let words = chaine.split(" ");
     for (let i = 0; i<words.length; ++i) {
-        str += i > 0 ? ucfirst(words[i]) : words[i];
+        str += ucfirst(words[i])
     }
     return str;
 }
