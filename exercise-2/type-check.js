@@ -13,7 +13,6 @@ function type_check_v2(val, config) {
     if (typeof(config) != "object" || config instanceof Array || config == null) {
         return false;
     }
-
     for(let key in config) {
         switch(key) {
             case 'type':
